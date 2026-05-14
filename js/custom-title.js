@@ -1,0 +1,1 @@
+(()=>{const e="c4 in my schoolbag\u7684\u535A\u5BA2",n=document.title,t=()=>{const o=window.location.pathname==="/"||window.location.pathname==="/index.html";document.title=o?e:n};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",t,{once:!0}):t()})();
