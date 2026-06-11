@@ -194,9 +194,13 @@ body {
 
 #aside-content .card-widget.card-toc .toc-content .toc-link {
   display: block;
+  width: 100%;
+  box-sizing: border-box;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  word-break: normal;
+  overflow-wrap: normal;
   font-size: 0.98rem;
   line-height: 1.55;
 }
@@ -204,6 +208,10 @@ body {
 #aside-content .card-widget.card-toc .toc-content ol,
 #aside-content .card-widget.card-toc .toc-content li {
   list-style: none;
+}
+
+#aside-content .card-widget.card-toc .toc-content li {
+  overflow: hidden;
 }
 
 #aside-content .card-widget.card-toc .toc-content > ol {
@@ -216,6 +224,22 @@ body {
 }
 
 @media (max-width: 768px) {
+  #aside-content .card-widget.card-toc .toc-content .toc-link {
+    width: 100%;
+    margin: 2px 0;
+    padding: 0.2rem 0.5rem;
+    white-space: nowrap !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+  #aside-content .card-widget.card-toc .toc-content ol,
+  #aside-content .card-widget.card-toc .toc-content li {
+    overflow: hidden;
+  }
+
   #post #article-container,
   #post #article-container p,
   #post #article-container li,
