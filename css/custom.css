@@ -185,14 +185,14 @@ body {
   box-shadow: 0 14px 32px rgba(15, 23, 42, 0.12);
 }
 
-#aside-content .card-widget.card-toc {
+#aside-content #card-toc {
   border: 1px solid rgba(255, 255, 255, 0.26);
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 18px 48px rgba(16, 24, 40, 0.18);
   backdrop-filter: blur(14px);
 }
 
-#aside-content .card-widget.card-toc .toc-content .toc-link {
+#aside-content #card-toc .toc-content .toc-link {
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -205,26 +205,26 @@ body {
   line-height: 1.55;
 }
 
-#aside-content .card-widget.card-toc .toc-content ol,
-#aside-content .card-widget.card-toc .toc-content li {
+#aside-content #card-toc .toc-content ol,
+#aside-content #card-toc .toc-content li {
   list-style: none;
 }
 
-#aside-content .card-widget.card-toc .toc-content li {
+#aside-content #card-toc .toc-content li {
   overflow: hidden;
 }
 
-#aside-content .card-widget.card-toc .toc-content > ol {
+#aside-content #card-toc .toc-content > ol {
   padding-left: 0;
 }
 
-#aside-content .card-widget.card-toc .toc-content .toc-link.active {
+#aside-content #card-toc .toc-content .toc-link.active {
   color: #3e63dd;
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  #aside-content .card-widget.card-toc .toc-content .toc-link {
+  #aside-content #card-toc .toc-content .toc-link {
     width: 100%;
     margin: 2px 0;
     padding: 0.2rem 0.5rem;
@@ -235,8 +235,8 @@ body {
     overflow-wrap: normal !important;
   }
 
-  #aside-content .card-widget.card-toc .toc-content ol,
-  #aside-content .card-widget.card-toc .toc-content li {
+  #aside-content #card-toc .toc-content ol,
+  #aside-content #card-toc .toc-content li {
     overflow: hidden;
   }
 
