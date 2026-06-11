@@ -193,8 +193,21 @@ body {
 }
 
 #aside-content .card-widget.card-toc .toc-content .toc-link {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   font-size: 0.98rem;
-  line-height: 1.6;
+  line-height: 1.55;
+}
+
+#aside-content .card-widget.card-toc .toc-content ol,
+#aside-content .card-widget.card-toc .toc-content li {
+  list-style: none;
+}
+
+#aside-content .card-widget.card-toc .toc-content > ol {
+  padding-left: 0;
 }
 
 #aside-content .card-widget.card-toc .toc-content .toc-link.active {
